@@ -1,0 +1,11 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC"
+}
