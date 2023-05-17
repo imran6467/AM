@@ -1,0 +1,12 @@
+npm init -y
+npm install -D tailwindcss
+npx tailwindcss init
+content: ["./**/*.{html,js}"],
+
+/input.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npx tailwindcss -i ./input.css -o ./output.css --watch
